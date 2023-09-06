@@ -38,6 +38,7 @@ body::before{
     z-index: -1; 
 } 
 nav{ 
+    
     width: 100%;
     background: rgb(255, 255, 255); 
     align-items: center;
@@ -68,7 +69,7 @@ ul li a:hover{
 } 
 header{ 
     margin-top: 2.0rem; 
-    width: 38.9rem; 
+    width: 33.9rem; 
     font-family: 'Roboto', sans-serif; 
     color: bisque; 
      
@@ -77,18 +78,19 @@ header{
 .page{ 
     display: flex; 
     flex-direction: column; 
-     
-    width: 53.6rem; 
+    
+    width: min(53.6rem, 86%) ; 
     margin: 1px auto; 
+    border: 1px solid red;
 } 
 form{ 
-    padding: 2.5rem 2.0rem; 
-    margin: 0.7rem auto 2.0rem; 
+    padding: 4.5rem 3.0rem 5.5rem; 
+    border: 1px solid red; 
     background: white; 
     border-radius: 1.0rem; 
-    width: 53.6rem; 
-    
- 
+    width:100%; 
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0,0,0,0.2);
+    margin-bottom: 3.4rem;
 } 
 .input-wrapper{ 
     display: flex; 
@@ -144,9 +146,7 @@ fieldset legend{
 .input-check{
     align-items: center;
 }
-.input-check label, span{
-    line-height: 1px;
-}
+
 .input-send input{
     color: beige;
     font-weight: 700;
@@ -161,4 +161,8 @@ fieldset legend{
 }
 .input-send input:hover{
     background: rgb(100, 88, 88);
+}
+
+@media (min-width: 40em){
+   
 }
