@@ -83,8 +83,7 @@ header{
     
 } 
 form{ 
-    padding: 4.5rem 3.0rem 5.5rem; 
-    border: 1px solid red; 
+    padding: 4.5rem 3.0rem 5.5rem;  
     background: white; 
     border-radius: 1.0rem; 
     width:100%; 
