@@ -78,10 +78,9 @@ header{
 .page{ 
     display: flex; 
     flex-direction: column; 
-    
     width: min(53.6rem, 86%) ; 
     margin: 1px auto; 
-    border: 1px solid red;
+    
 } 
 form{ 
     padding: 4.5rem 3.0rem 5.5rem; 
